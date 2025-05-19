@@ -10,3 +10,9 @@ Este repositório mostra como utilizar o modelo **Hunyuan 3D** no **ComfyUI** pa
 - ComfyUI
 - Python 3.10+
 - GPU com suporte a CUDA (recomendado)
+
+### Workflow para gerar 3D
+[Clique aqui para ver o workflow](./Hunyuan3D-CG.json)
+
+### Exemplo de etapas para gerar 3D
+![input](imagens/processo.png)
