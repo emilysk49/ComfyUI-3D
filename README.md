@@ -1,3 +1,7 @@
+
+[![ComfyUI](https://img.shields.io/badge/ComfyUI-GitHub-orange?logo=github)](https://github.com/comfyanonymous/ComfyUI)
+[![ComfyUImanager](https://img.shields.io/badge/ComfyUImanager-GitHub-green?logo=github)](https://github.com/ltdrdata/ComfyUI-Manager)
+[![Badge hunyuan3DWrapper](https://img.shields.io/badge/Hunyunan3DWrapper-GitHub-blue?logo=github)](https://github.com/kijai/ComfyUI-Hunyuan3DWrapper)
 # ComfyUI-LoRA
 ### Exemplo de LoRA
 Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
@@ -22,10 +26,6 @@ Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
 
 
 # ComfyUI-3D
-### Links
-[![ComfyUI](https://img.shields.io/badge/ComfyUI-GitHub-orange?logo=github)](https://github.com/comfyanonymous/ComfyUI)
-[![ComfyUImanager](https://img.shields.io/badge/ComfyUImanager-GitHub-green?logo=github)](https://github.com/ltdrdata/ComfyUI-Manager)
-[![Badge hunyuan3DWrapper](https://img.shields.io/badge/Hunyunan3DWrapper-GitHub-blue?logo=github)](https://github.com/kijai/ComfyUI-Hunyuan3DWrapper)
 
 Mostra como utilizar o modelo **Hunyuan 3D** no **ComfyUI** para transformar uma **imagem 2D em um modelo 3D texturizado** de forma simples e visual.
 
@@ -58,10 +58,10 @@ Mostra como utilizar o modelo **Hunyuan 3D** no **ComfyUI** para transformar uma
    cd hy3dgen/texgen/custom_rasterizer
    pip install .
 4. Instalar o modelo [hunyuan3d-div-v2-0-fp16.safetensors](https://huggingface.co/Kijai/Hunyuan3D-2_safetensors/tree/main) dentro do `ComfyUI/models/diffusion_models`.
-5. Dentro do ConfyUI instala o custom node [Essentials](https://github.com/cubiq/ComfyUI_essentials.git), se tiver Manager instala através do **Install Missing Custom Nodes**.
+5. Dentro do ConfyUI instala o custom node [Essentials](https://github.com/cubiq/ComfyUI_essentials.git), se tiver ComfyUI-Manager instala através do **Install Missing Custom Nodes**.
 
    
-
+### Dicas para escolher 
 
 ### Workflow para gerar 3D
 [Clique aqui para baixar o workflow](./Hunyuan3D-CG.json)
