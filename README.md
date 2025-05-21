@@ -20,6 +20,7 @@ Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
 
 
 ### Exemplo de workflow de LoRA
+[Clique aqui para baixar o workflow de LoRA](./loRA-img2img.json)
 ![Exemplo de workflow de LoRA](./imagens/workflow-LoRA.png)
 
 
@@ -64,5 +65,5 @@ Mostra como utilizar o modelo **Hunyuan 3D** no **ComfyUI** para transformar uma
    
 
 ### Workflow para gerar 3D
-[Clique aqui para baixar o workflow](./Hunyuan3D-CG.json)
+[Clique aqui para baixar o workflow para gerar modelo 3D](./Hunyuan3D-CG.json)
 ![workflow hunyuan3D](imagens/workflow-hunyuan3D.jpeg)
