@@ -1,4 +1,17 @@
 # ComfyUI-LoRA
+### Exemplo de LoRA
+Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
+![Exemplos de LoRA](./imagens/robos-LoRA.png)
+
+|      LoRA      | Trigger Word       |
+|----------------|--------------------|
+| [Mecha Musume](https://civitai.com/models/15464/a-mecha-musume-a) | `mecha musume` `mechanical parts` `robot joints` `headgear`|
+| [Mecha](https://civitai.com/models/76693?modelVersionId=697939)|     |
+| [Armor Suit](https://civitai.com/models/59245/armor-suit-lora)| `armorsuit`    |
+| [Niji Armor](https://civitai.com/models/99875/nijiarmor-lora-suits-armors-mechas)|     |
+
+### Exemplo de workflow de LoRA
+![Exemplo de workflow de LoRA](./imagens/workflow-LoRA.png)
 
 
 # ComfyUI-3D
