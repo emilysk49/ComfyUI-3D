@@ -4,7 +4,7 @@
 [![Hunyuan3DWrapper](https://img.shields.io/badge/Hunyunan3DWrapper-GitHub-blue?logo=github)](https://github.com/kijai/ComfyUI-Hunyuan3DWrapper)
 # ComfyUI-LoRA
 
-**LoRA(Low-Rank Adaptation)** é forma leve de trinar modelos, adiciona pequenas mudanças em partes específicas. Isso deixa o treinamento mais rápido, consome menos memória e permite criar variações personalizadas do modelo, como ensinar ele a desenhar um estilo ou reconhecer um personagem específico. 
+**LoRA(Low-Rank Adaptation)** é forma leve de trinar modelos, adicionando pequenas mudanças em partes específicas. Isso deixa o treinamento mais rápido, consome menos memória e permite criar variações personalizadas do modelo, como ensinar ele a desenhar um estilo ou reconhecer um personagem específico. 
 
 ### Exemplo de LoRA
 Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
