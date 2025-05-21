@@ -1,7 +1,10 @@
 # ComfyUI-LoRA
 ### Exemplo de LoRA
 Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
-![Exemplos de LoRA](./imagens/robos-LoRA.png)
+![Exemplos de LoRA](imagens/robos-LoRA.png)
+
+
+
 
 |      LoRA      | Trigger Word       |
 |----------------|--------------------|
@@ -10,8 +13,12 @@ Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
 | [Armor Suit](https://civitai.com/models/59245/armor-suit-lora)| `armorsuit`    |
 | [Niji Armor](https://civitai.com/models/99875/nijiarmor-lora-suits-armors-mechas)|     |
 
+
+
 ### Exemplo de workflow de LoRA
 ![Exemplo de workflow de LoRA](./imagens/workflow-LoRA.png)
+
+
 
 
 # ComfyUI-3D
@@ -22,29 +29,40 @@ Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
 
 Mostra como utilizar o modelo **Hunyuan 3D** no **ComfyUI** para transformar uma **imagem 2D em um modelo 3D texturizado** de forma simples e visual.
 
+
+### Exemplo de etapas para gerar 3D
+![input](imagens/processo.png)
+
+
+
+
 ### Requisitos
 - ComfyUI
 - Python 3.10+
 - GPU com suporte a CUDA (recomendado)
 
+  
+
+
 ### Instalação para gerar 3D
 1. Abre custom_node dentro do diretório de ComfyUI:
    ```bash
    cd custom_nodes
-3. Instalar Hunyuan 3D Wrapper:
+2. Instalar Hunyuan 3D Wrapper:
    ```bash
    git clone https://github.com/kijai/ComfyUI-Hunyuan3DWrapper.git
    cd ComfyUI-Hunyuan3DWrapper
    pip install -r requirements.txt
-5. Instalar custom rasterizer (pytorch e CUDA precisa ser compatível):
+3. Instalar custom rasterizer (pytorch e CUDA precisa ser compatível):
    ```bash
    cd hy3dgen/texgen/custom_rasterizer
    pip install .
-7. Instalar o modelo [hunyuan3d-div-v2-0-fp16.safetensors](https://huggingface.co/Kijai/Hunyuan3D-2_safetensors/tree/main) dentro do `ComfyUI/models/diffusion_models`.
-8. Dentro do ConfyUI instala o custom node [Essentials](https://github.com/cubiq/ComfyUI_essentials.git), se tiver Manager instala através do **Install Missing Custom Nodes**.
+4. Instalar o modelo [hunyuan3d-div-v2-0-fp16.safetensors](https://huggingface.co/Kijai/Hunyuan3D-2_safetensors/tree/main) dentro do `ComfyUI/models/diffusion_models`.
+5. Dentro do ConfyUI instala o custom node [Essentials](https://github.com/cubiq/ComfyUI_essentials.git), se tiver Manager instala através do **Install Missing Custom Nodes**.
+
+   
+
 
 ### Workflow para gerar 3D
-[Clique aqui para ver o workflow](./Hunyuan3D-CG.json)
-
-### Exemplo de etapas para gerar 3D
-![input](imagens/processo.png)
+[Clique aqui para baixar o workflow](./Hunyuan3D-CG.json)
+![workflow hunyuan3D](imagens/workflow-hunyuan3D.jpeg)
