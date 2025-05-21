@@ -1,7 +1,7 @@
 
 [![ComfyUI](https://img.shields.io/badge/ComfyUI-GitHub-orange?logo=github)](https://github.com/comfyanonymous/ComfyUI)
-[![ComfyUImanager](https://img.shields.io/badge/ComfyUImanager-GitHub-green?logo=github)](https://github.com/ltdrdata/ComfyUI-Manager)
-[![Badge hunyuan3DWrapper](https://img.shields.io/badge/Hunyunan3DWrapper-GitHub-blue?logo=github)](https://github.com/kijai/ComfyUI-Hunyuan3DWrapper)
+[![ComfyUI-Manager](https://img.shields.io/badge/ComfyUImanager-GitHub-green?logo=github)](https://github.com/ltdrdata/ComfyUI-Manager)
+[![Hunyuan3DWrapper](https://img.shields.io/badge/Hunyunan3DWrapper-GitHub-blue?logo=github)](https://github.com/kijai/ComfyUI-Hunyuan3DWrapper)
 # ComfyUI-LoRA
 ### Exemplo de LoRA
 Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
