@@ -60,8 +60,8 @@ Mostra como utilizar o modelo **Hunyuan 3D** no **ComfyUI** para transformar uma
 4. Instalar o modelo [hunyuan3d-div-v2-0-fp16.safetensors](https://huggingface.co/Kijai/Hunyuan3D-2_safetensors/tree/main) dentro do `ComfyUI/models/diffusion_models`.
 5. Dentro do ConfyUI instala o custom node [Essentials](https://github.com/cubiq/ComfyUI_essentials.git), se tiver ComfyUI-Manager instala através do **Install Missing Custom Nodes**.
 
+
    
-### Dicas para escolher 
 
 ### Workflow para gerar 3D
 [Clique aqui para baixar o workflow](./Hunyuan3D-CG.json)
