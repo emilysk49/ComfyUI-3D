@@ -20,6 +20,7 @@ Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
 | [Armor Suit](https://civitai.com/models/59245/armor-suit-lora)| `armorsuit`    |
 | [Niji Armor](https://civitai.com/models/99875/nijiarmor-lora-suits-armors-mechas)|     |
 
+O modelo LoRA baixado precisa estar no `ComfyUI/models/loras/`.
 
 
 ### Exemplo de workflow de LoRA
