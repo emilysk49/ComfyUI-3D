@@ -2,9 +2,26 @@
 [![ComfyUI](https://img.shields.io/badge/ComfyUI-GitHub-orange?logo=github)](https://github.com/comfyanonymous/ComfyUI)
 [![ComfyUI-Manager](https://img.shields.io/badge/ComfyUImanager-GitHub-green?logo=github)](https://github.com/ltdrdata/ComfyUI-Manager)
 [![Hunyuan3DWrapper](https://img.shields.io/badge/Hunyunan3DWrapper-GitHub-blue?logo=github)](https://github.com/kijai/ComfyUI-Hunyuan3DWrapper)
-# ComfyUI-LoRA
 
-**LoRA(Low-Rank Adaptation)** é forma leve de trinar modelos, adicionando pequenas mudanças em partes específicas. Isso deixa o treinamento mais rápido, consome menos memória e permite criar variações personalizadas do modelo, como ensinar ele a desenhar um estilo ou reconhecer um personagem específico. 
+# ComfyUI - Geração de imagens 
+Dentro da pasta workflow-imagens estão disponibilizados os workflows para gerar imagens:
+- **txt2img**: gera imagem partir de prompt textual
+- **img2img**: gera imagem partir de prompt textual + imagem de referência
+- **inpainting**: faz ajustes em áreas específicas da imagem de entrada
+- **controlnet**: gera imagem usando entradas adicionais como guia para maior controle
+- **lora**: aplica estilo ou personagem específico na imagem
+
+📖 **Documentação completa:** [Manual do projeto](https://www.researchgate.net/publication/396709256_MANUAL_DE_IA_GERATIVA_PARA_MODELAGEM_DE_PERSONAGEM_3D_-_GENERATIVE_AI_MANUAL_FOR_3D_CHARACTER_MODELLING)
+
+## Inpainting
+**Inpainting** é uma técnica que permite editar partes específicas de uma imagem, preenchendo ou modificando apenas a área selecionada, enquanto o resto da imagem é mantido.
+
+## ControlNet
+**ControlNet** permite usar informações adicionais (como poses ou esboços) para guiar o modelo na criação de imagens mais precisas e alinhadas com o que você deseja.
+
+## LoRA
+
+**LoRA(Low-Rank Adaptation)** é forma leve de treinar modelos, adicionando pequenas mudanças em partes específicas. Isso deixa o treinamento mais rápido, consome menos memória e permite criar variações personalizadas do modelo, como ensinar ele a desenhar um estilo ou reconhecer um personagem específico. 
 
 ### Exemplo de LoRA
 Abaixo estão 4 exemplos gerados com diferentes LoRA, com foco em gerar robôs:
@@ -30,7 +47,7 @@ O modelo LoRA baixado precisa estar no `ComfyUI/models/loras/`.
 
 
 
-# ComfyUI-3D
+# ComfyUI - Geração de modelo 3D
 
 Mostra como utilizar o modelo **Hunyuan 3D** no **ComfyUI** para transformar uma **imagem 2D em um modelo 3D texturizado** de forma simples e visual.
 
