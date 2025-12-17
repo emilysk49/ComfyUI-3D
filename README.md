@@ -15,9 +15,25 @@ Dentro da pasta workflow-imagens estão disponibilizados os workflows para gerar
 
 ## Inpainting
 **Inpainting** é uma técnica que permite editar partes específicas de uma imagem, preenchendo ou modificando apenas a área selecionada, enquanto o resto da imagem é mantido.
+![Exemplo de inpainting](imagens/exemplo_inpainting.png)
+
+### Como criar imagem com máscara ?
+1. Após selecionar imagem de entrada clique nela com botão direito do mouse e escolhe **Open in MaskEditor**
+2. Vai abrir interface para edição e pinta apenas a área que quer realizar modificação (tem opção inverso também caso a área seja maior)
+3. Por fim salvar e executar
+
+<p align="center">
+  <img src="imagens/inpainting_p1.png" width="40%" />
+  <img src="imagens/inpainting_p2.png" width="55%" />
+</p>
+
 
 ## ControlNet
 **ControlNet** permite usar informações adicionais (como poses ou esboços) para guiar o modelo na criação de imagens mais precisas e alinhadas com o que você deseja.
+![Exemplo de openpose](imagens/openpose.png)
+![Exemplo de depth](imagens/depth.png)
+![Exemplo de scribble](imagens/scribble.png)
+
 
 ## LoRA
 
@@ -88,3 +104,17 @@ Mostra como utilizar o modelo **Hunyuan 3D** no **ComfyUI** para transformar uma
 ### Workflow para gerar 3D
 [Clique aqui para baixar o workflow para gerar modelo 3D](./Hunyuan3D-CG.json)
 ![workflow hunyuan3D](imagens/workflow-hunyuan3D.jpeg)
+
+
+## Alternativa Online
+
+Além do workflow local com **Hunyuan 3D 2.0**, existe a opção de utilizar **Hunyuan 3D 2.5** (lançado 2025) por meio da plataforma online oficial.
+
+Essa alternativa é útil caso a execução local não funcione ou para testes rápidos.
+
+- Versão: **Hunyuan 3D 2.5**
+- Plataforma: **online**
+- Limite: **até 20 gerações por dia**
+- Observação: não requer execução local
+
+👉 [Acessar Hunyuan 3D 2.5 (plataforma online)](https://3d.hunyuan.tencent.com)
